@@ -1,0 +1,1 @@
+mongodb+srv://garima:garima@cluster0.n9j2pbn.mongodb.net/?retryWrites=true&w=majority
