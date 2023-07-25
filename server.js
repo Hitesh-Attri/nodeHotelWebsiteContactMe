@@ -9,6 +9,12 @@ app.use(express.urlencoded({ extended:true }));
 
 const contactMeRoute = require('./routes/saveMsg');
 
+
+app.use(cors({
+    // origin: 'http://localhost:5173'
+    origin: '*'
+}));
+
 app.get('/testing',(req,res)=>{
     res.json({msg:"tesing node server and mongodb connection"})
 })
