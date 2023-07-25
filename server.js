@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended:true }));
 
 const contactMeRoute = require('./routes/saveMsg');
 
-
+const cors = require('cors');  
 app.use(cors({
     // origin: 'http://localhost:5173'
     origin: '*'
